@@ -2,6 +2,10 @@
 title: "FISHER: An Efficient Sim2Sim Training Framework Dedicated in Multi-AUV Target Tracking via Learning from Demonstrations"
 authors:
 - admin
+- Jingzehua Xu
+author_notes:
+  - 'Equal contribution'
+  - 'Equal contribution'
 date: "2024-03-28T00:00:00Z"
 doi: ""
 
@@ -17,30 +21,30 @@ publication_types: ["article"]
 publication: ""
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract:  Multiple autonomous underwater vehicles (AUVs) target tracking problem is a significant challenge for AUV swarm control, which is crucial to the growth of the marine industry. To emphasize the great adaptability while tackling the limitations of reinforcement learning (RL) methods in Multi-AUV target tracking tasks, we propose an efficient twostage learning from demonstrations (LfD) training framework, FISHER, based on few-shot expert demonstration, featuring imitation learning (IL) and offline reinforcement learning (ORL). In the first stage, we develop a sample-efficient algorithm, multi-agent independent discriminator actor-critic (MAIDAC), to facilitate the imitation of expert policy and the generation of offline datasets. In the second stage, based on decision transformer (DT), the reward function-indepentent algorithm, multi-agent independent generalized decision transformer (MAIGDT) is utilized for further policy improvement. Simultaneously, we propose a simulation to simulation (sim2sim) method to facilitate the generation of expert trajectories, which is compatible with traditional methods like artificial potential field (APF). Through comparative experiments, we verify the improvement of the proposed MAIDAC and MAIGDT algorithms, and we further demonstrate the strong performance and practicality of the proposed FISHER by full target tracking simulation processes.
+summary: In submission
 
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
 - Source Themes
 featured: True
 
 links:
-- name: Custom Link
+- name: Project webpage
   url: https://sites.google.com/view/fisher2024
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: '#'
-url_poster: '#'
-url_project: ''
-url_slides: ''
-url_source: '#'
-url_video: '#'
+url_pdf: ''
+# url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+# url_dataset: ''
+# url_poster: ''
+# url_project: ''
+# url_slides: ''
+# url_source: ''
+url_video: 'https://www.youtube.com/watch?v=W1qwWOZ4-wk'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
+  caption: 'The schematic diagram of our proposed training framework FISHER.'
   focal_point: ""
   preview_only: false
 
@@ -57,11 +61,11 @@ projects:
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+# slides: example
 ---
 
-{{% callout note %}}
+<!-- {{% callout note %}}
 Create your slides in Markdown - click the *Slides* button to check out the example.
 {{% /callout %}}
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->

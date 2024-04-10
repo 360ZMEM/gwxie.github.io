@@ -6,8 +6,8 @@ title: Guanwen Xie
 # name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Guanwen
+last_name: Xie
 
 # Status emoji
 status:
@@ -25,13 +25,13 @@ organizations:
     url: https://www.tsinghua.edu.cn/en/index.htm
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Keep going!😊
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Underwater Robot and Communication
+  - Robot Learning
+  - Multi-agent RL and offline RL
 
 # Education to show in About widget
 education:
@@ -114,5 +114,7 @@ social:
 highlight_name: true
 ---
 
-Hello! I'm Xie Guanwen, a fourth-year student
+Hello! I'm Guanwen Xie(谢冠文), a senior year undergarduate student from Zhejiang University, and I'll accomplish my M.S. study in Tsinghua University, supervised by Prof. Daoyi Chen and Yong Ren. 
+
+I major in Ocean Technology and I have keen interest in Computer Science and AI. 
 {style="text-align: justify;"}
