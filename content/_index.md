@@ -195,7 +195,7 @@ sections:
       title: 🔥 Latest News
       text: |-
         - **[Apr. 2024]** My homepage is under construction! Keep going!
-        - **[Mar. 2024]** The paper <a href='https://360zmem.github.io/publication/yd2024/'> **Multi-AUV Assisted Seamless Underwater Target Tracking Relying on Deep Learning and Reinforcement Learning** </a> was accepted by *Multi-AUV Assisted Seamless Underwater Target Tracking Relying on Deep Learning and Reinforcement Learning* (IJCNN) 2024.
+        - **[Mar. 2024]** The paper <a href='https://360zmem.github.io/publication/yd2024/'> **Multi-AUV Assisted Seamless Underwater Target Tracking Relying on Deep Learning and Reinforcement Learning** </a> was accepted by *International Joint Conference on Neural Networks* (IJCNN) 2024.
     design:
       columns: '2'
   - block: collection
