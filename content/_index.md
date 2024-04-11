@@ -50,41 +50,10 @@ sections:
   #     username: admin
   #   design:
   #     columns: '1'
-  # - block: experience
-  #   content:
-  #     title: Experience
-  #     # Date format for experience
-  #     #   Refer to https://docs.hugoblox.com/customization/#date-format
-  #     date_format: Jan 2006
-  #     # Experiences.
-  #     #   Add/remove as many `experience` items below as you like.
-  #     #   Required fields are `title`, `company`, and `date_start`.
-  #     #   Leave `date_end` empty if it's your current employer.
-  #     #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-  #     items:
-  #       - title: CEO
-  #         company: GenCoin
-  #         company_url: ''
-  #         company_logo: org-gc
-  #         location: California
-  #         date_start: '2021-01-01'
-  #         date_end: ''
-  #         description: |2-
-  #             Responsibilities include:
+  
 
-  #             * Analysing
-  #             * Modelling
-  #             * Deploying
-  #       - title: Professor of Semiconductor Physics
-  #         company: University X
-  #         company_url: ''
-  #         company_logo: org-x
-  #         location: California
-  #         date_start: '2016-01-01'
-  #         date_end: '2020-12-31'
-  #         description: Taught electronic engineering and researched semiconductor physics.
-  #   design:
-  #     columns: '2'
+
+  
   # - block: accomplishments
   #   content:
   #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
@@ -195,9 +164,15 @@ sections:
       title: 🔥 Latest News
       text: |-
         - **[Apr. 2024]** My homepage is under construction! Keep going!
+        - **[Mar. 2024]** The paper <a href='https://360zmem.github.io/publication/fisher/'> **FISHER: An Efficient Sim2Sim Training Framework Dedicated in Multi-AUV Target Tracking via Learning from Demonstrations** </a> was submitted to *International Conference on Artificial Neural Networks* (ICANN) 2024.
         - **[Mar. 2024]** The paper <a href='https://360zmem.github.io/publication/yd2024/'> **Multi-AUV Assisted Seamless Underwater Target Tracking Relying on Deep Learning and Reinforcement Learning** </a> was accepted by *International Joint Conference on Neural Networks* (IJCNN) 2024.
     design:
       columns: '2'
+
+
+
+
+  
   - block: collection
     id: featured
     content:
@@ -238,6 +213,109 @@ sections:
   #     title: Popular Topics
   #   design:
   #     columns: '2'
+
+
+  - block: experience
+    id: exp
+    content:
+      title: Experience
+      # Date format for experience
+      #   Refer to https://docs.hugoblox.com/customization/#date-format
+      date_format: Jan 2006
+      # Experiences.
+      #   Add/remove as many `experience` items below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: CEO
+          company: GenCoin
+          company_url: ''
+          company_logo: zju
+          location: California
+          date_start: '2021-01-01'
+          date_end: ''
+          description: |2-
+              Responsibilities include:
+
+              * Analysing
+              * Modelling
+              * Deploying
+        - title: Professor of Semiconductor Physics
+          company: University X
+          company_url: ''
+          company_logo: org-x
+          location: California
+          date_start: '2016-01-01'
+          date_end: '2020-12-31'
+          description: Taught electronic engineering and researched semiconductor physics.
+    design:
+      columns: '2'
+  # - block: accomplishments
+  #   id: awards
+  #   content:
+  #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+  #     title: '🥇 Awards & Honors'
+  #     subtitle:
+  #     # Date format: https://wowchemy.com/docs/customization/#date-format
+  #     date_format: Jan 2006
+  #     # Accomplishments.
+  #     #   Add/remove as many `item` blocks below as you like.
+  #     #   `title`, `organization`, and `date_start` are the required parameters.
+  #     #   Leave other parameters empty if not required.
+  #     #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+  #     items:
+  #       - certificate_url: 
+  #         date_end: ''
+  #         date_start: '2023-10-02'
+  #         #description: 'Nearly 170 thousand HK dollars.'
+  #         organization: Zhejiang University
+  #         organization_url: 
+  #         title: <span style="">Runhe Scholarship (Top 1%)</span> 
+  #         url: ''
+  #       - certificate_url: 
+  #         date_end: ''
+  #         date_start: '2022-11-01'
+  #         #description: 'Nearly a million HK dollars support his research and PhD career.'
+  #         organization: Zhejiang University
+  #         organization_url: 
+  #         title: <span style="">Zhejiang Provincal Government Scholarship (Top 3%)</span> 
+  #         url: ''
+  #   design:
+  #     columns: '2'
+  #     view: card
+
+
+  - block: markdown
+    id: awards
+    content:
+      title: '🥇 Awards & Honors'
+      text: |-
+        ### Scholarship
+        **2023** - Runhe Scholarship (**Top 1%**)
+        
+        **2022** - Zhejiang Provincal Government Scholarship (**Top 3%**)
+        ### Competition
+        **2023** - First Prize of Zhejiang Province Underwater Robot Competition (**Top 5%**)
+
+        **2022** - First Prize of Zhejiang Province Student Physics Innovation (Theory)
+        
+    design:
+      columns: '2'
+
+
+  - block: markdown
+    id: skills
+    content:
+      title: 💻 SKills
+      text: |-
+        ### Programming & Debugging
+        - Python(Pytorch) · C/C++ · ROS · Linux
+        ### Language
+        - English (CET6 600)
+    design:
+      columns: '2'
+
   - block: contact
     id: contact
     content:
@@ -289,4 +367,6 @@ sections:
     #       captcha: false
     design:
       columns: '2'
+
+
 ---

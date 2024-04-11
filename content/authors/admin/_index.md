@@ -40,7 +40,7 @@ education:
       institution: Tsinghua University
       year: 2024/9 - present
     - course: B.S. in Ocean Technology
-      institution: Zhejiang University
+      institution: Zhejiang University (GPA:92.4/100, Rank 1/143)
       year: 2020/9 - 2024/6
 
 # Skills
@@ -116,5 +116,5 @@ highlight_name: true
 
 Hello! I'm Guanwen Xie(谢冠文), a senior year undergarduate student from Zhejiang University, and I'll accomplish my M.S. study in Tsinghua University, supervised by Prof. Daoyi Chen and Yong Ren. 
 
-I major in Ocean Technology and I have keen interest in Computer Science and AI. 
+I major in Ocean Technology and I have keen interest in Computer Science and AI. The main goal of my research is empowering reinforcement learning (RL) to robot learning and robot-assisted underwater tasks. For this goal, I. Keep going!
 {style="text-align: justify;"}
