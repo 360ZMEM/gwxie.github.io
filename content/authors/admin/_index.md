@@ -114,7 +114,7 @@ social:
 highlight_name: true
 ---
 
-Hello! I'm Guanwen Xie(谢冠文), a senior year undergarduate student from Zhejiang University, and I'll accomplish my M.S. study in Tsinghua University, supervised by Prof. Daoyi Chen and Yong Ren. 
+Hello! I'm Guanwen Xie(谢冠文), a senior year undergraduate student from Zhejiang University, and I'll start my M.S. studies at Tsinghua University, supervised by Prof. Daoyi Chen and Yong Ren. 
 
-I major in Ocean Technology and I have keen interest in Computer Science and AI. The main goal of my research is empowering reinforcement learning (RL) to robot learning and robot-assisted underwater tasks. For this goal, I. Keep going!
+I major in Ocean Technology and I have keen interest in Computer Science and AI. The main topic of my research is empowering robot learning and robot-assisted underwater tasks by data-driven methods like reinforcement learning(RL). For this goal, I'll keep studying the frontiers of RL, such as imitation learning(IL), offline RL, multi-agent RL and multi-goal RL. Hopefully, my research can help (underwater) agents efficiently acquire general and robust decision-making behaviors in various environments. Keep going!💪
 {style="text-align: justify;"}

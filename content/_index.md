@@ -163,7 +163,7 @@ sections:
     content:
       title: 🔥 Latest News
       text: |-
-        - **[Apr. 2024]** My homepage is under construction! Keep going!
+        - **[Apr. 2024]** My homepage is under construction!
         - **[Mar. 2024]** The paper <a href='https://360zmem.github.io/publication/fisher/'> **FISHER: An Efficient Sim2Sim Training Framework Dedicated in Multi-AUV Target Tracking via Learning from Demonstrations** </a> was submitted to *International Conference on Artificial Neural Networks* (ICANN) 2024.
         - **[Mar. 2024]** The paper <a href='https://360zmem.github.io/publication/yd2024/'> **Multi-AUV Assisted Seamless Underwater Target Tracking Relying on Deep Learning and Reinforcement Learning** </a> was accepted by *International Joint Conference on Neural Networks* (IJCNN) 2024.
     design:
@@ -228,27 +228,42 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: AUV Target Tracking via Leaning from Demonstration
+          company: Zhejiang University & Tsinghua University \(Advisor：Prof. Dongfang Ma\)
           company_url: ''
-          company_logo: zju
-          location: California
-          date_start: '2021-01-01'
+          company_logo: thu
+          location: Beijing, China
+          date_start: '2023-11-01'
           date_end: ''
           description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+              This is the topic of my graduation thesis. Visit my article <a href='https://360zmem.github.io/publication/fisher/'> **FISHER: An Efficient Sim2Sim Training Framework Dedicated in Multi-AUV Target Tracking via Learning from Demonstrations** </a> to learn more.
+        - title: Underwater Robot Design
+          company: Zhejiang University, Ocean College \(Advisor：Prof. Yulin Si\)
           company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          company_logo: zju
+          location: Hangzhou, China
+          date_start: '2023-02-01'
+          date_end: '2023-06-04'
+          description: |2-
+              Developed a compact, energy-save and control-easy underwater robot via Raspberry Pi, STM32 and computer vision algorithms, with the functions of navigation, obstacle avoidance, letter and color recognition. Specifically, we utilize BAGAN for data augmentation for letter recognition, which significantly improves the accuracy of the recognition task. We participated in the underwater robot competition of Zhejiang Province and won the first prize.
+        - title: Cooperative Location in USV-AUV Network
+          company: Zhejiang University, Ocean College \(Advisor：Prof. Huarong Zheng\)
+          company_url: ''
+          company_logo: zju
+          location: Hangzhou, China
+          date_start: '2022-12-01'
+          date_end: '2023-08-04'
+          description: |2-
+              Visit our article <a href='https://360zmem.github.io/publication/w2023/'> **Fisher Information Matrix Based USBL Cooperative Location in USV-AUV Networks** </a> to learn more.
+        - title: Underwater Image Enhancement Based on Polarization Imaging
+          company: Zhejiang University, Intelligent Underwater Optical Laboratory \(Advisor：Prof. Hong Song\)
+          company_url: ''
+          company_logo: zju
+          location: Zhoushan, China
+          date_start: '2022-11-01'
+          date_end: '2023-07-01'
+          description: |2-
+              Analyze the stoke vector image and parameterize the enhanced image, then maximize the proposed enhanced EME(measure of enhancement by entropy), and finally utilize haze removal algorithm to make underwater image enhancement. I've also participated in applying this algorithm to a project concerning underwater 3D reconstruction. For this, I've studied the basic knowledge about SLAM.
     design:
       columns: '2'
   # - block: accomplishments

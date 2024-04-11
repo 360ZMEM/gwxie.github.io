@@ -47,7 +47,7 @@ featured: false
 #   url: http://example.org
 
 links:
-- name: News coverage
+- name: News coverage (Chinese)
   url: 'http://oc.zju.edu.cn/2024/0329/c29862a2896096/page.htm'
 # url_pdf: ''
 # url_code: ''
