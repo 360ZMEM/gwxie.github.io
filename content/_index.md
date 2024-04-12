@@ -218,7 +218,7 @@ sections:
   - block: experience
     id: exp
     content:
-      title: Experience
+      title: 🚀 Experiences
       # Date format for experience
       #   Refer to https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
