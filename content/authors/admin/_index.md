@@ -39,7 +39,7 @@ education:
     - course: M.S. in Electric Information
       institution: Tsinghua University
       year: 2024/9 - present
-    - course: B.S. in Ocean Technology
+    - course: B.E. in Ocean Technology
       institution: Zhejiang University (GPA:92.4/100, Rank 1/143)
       year: 2020/9 - 2024/6
 
