@@ -245,7 +245,7 @@ sections:
           date_start: '2023-02-01'
           date_end: '2023-06-04'
           description: |2-
-              Developed a compact, energy-save and control-easy underwater robot via Raspberry Pi, STM32 and computer vision algorithms, with the functions of navigation, obstacle avoidance, letter and color recognition. Specially, we utilize BAGAN for data augmentation for letter recognition, which significantly improves the accuracy of the recognition task. We participated in the underwater robot competition of Zhejiang Province and won the first prize.
+              Developed a compact, energy-save and control-easy underwater robot via Raspberry Pi, STM32 and computer vision algorithms, with the functions of navigation, obstacle avoidance, letter and color recognition. Specifically, we utilize BAGAN for data augmentation for letter recognition, which significantly improves the accuracy of the recognition task. We participated in the underwater robot competition of Zhejiang Province and won the first prize.
         - title: Cooperative Location in USV-AUV Network
           company: Zhejiang University, Ocean College \(Advisor：Prof. Huarong Zheng\)
           company_url: ''
