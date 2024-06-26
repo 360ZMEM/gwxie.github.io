@@ -187,14 +187,14 @@ sections:
   - block: collection
     content:
       title: 📚 Recent Publications
-      # text: |-
-      #   {{% callout note %}}
-      #   Quickly discover relevant content by [filtering publications](./publication/).
-      #   {{% /callout %}}
+      text: |-
+        {{% callout note %}}
+        Quickly discover relevant content by [filtering publications](./publication/).
+        {{% /callout %}}
       filters:
         folders:
           - publication
-        exclude_featured: true
+        exclude_featured: false
     design:
       columns: '2'
       view: citation
@@ -228,15 +228,24 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: LLM-driven Multi-objective Reinforcement learning
+          company: New Jersey Institute of Technology, Department of Data Science \(Advisor：Prof. Shuai Zhang\)
+          company_url: ''
+          company_logo: njit
+          # location: Zhoushan, China
+          date_start: '2024-06-01'
+          date_end: ''
+          description: |2-
+              Build a framework utilizing the large language model(LLM) to produce zero-shot interpretable dense reward functions and heuristic python code, while realizing iterative refinement with self-evolution feedback. Finally, they are applied in the multi-AUV underwater data collection task, with multiple objectives to be optimized.
         - title: AUV Target Tracking via Leaning from Demonstration
-          company: Zhejiang University & Tsinghua University \(Advisor：Prof. Dongfang Ma\)
+          company: Tsinghua University \(Advisor：Prof. Yong Ren\)
           company_url: ''
           company_logo: thu
           location: Beijing, China
           date_start: '2023-11-01'
           date_end: ''
           description: |2-
-              This is the topic of my graduation thesis. Visit my article <a href='https://360zmem.github.io/publication/fisher/'> **FISHER: An Efficient Sim2Sim Training Framework Dedicated in Multi-AUV Target Tracking via Learning from Demonstrations** </a> to learn more.
+              An underwater robot simulation platform is built, highlighting high-fidelity simulation and customizable modules. Based on this platform, we built an expert-driven, reward function irrelevant simulation to simulation(sim2sim) training framework utilizing multi-agent imitation learning(IL) and transformer-based offline reinforcement learning(ORL).
         - title: Underwater Robot Design
           company: Zhejiang University, Ocean College \(Advisor：Prof. Yulin Si\)
           company_url: ''
@@ -245,7 +254,7 @@ sections:
           date_start: '2023-02-01'
           date_end: '2023-06-04'
           description: |2-
-              Developed a compact, energy-save and control-easy underwater robot via Raspberry Pi, STM32 and computer vision algorithms, with the functions of navigation, obstacle avoidance, letter and color recognition. Specifically, we utilize BAGAN for data augmentation for letter recognition, which significantly improves the accuracy of the recognition task. We participated in the underwater robot competition of Zhejiang Province and won the first prize.
+              Developed a compact, energy-save and easy-to-control underwater robot via Raspberry Pi, STM32 with the functions of navigation, obstacle avoidance, letter and color recognition. Data augmentation procedure based on BAGAN is utilized for enhancing the accuracy of the recognition task. We participated in the underwater robot competition of Zhejiang Province and won the first prize.
         - title: Cooperative Location in USV-AUV Network
           company: Zhejiang University, Ocean College \(Advisor：Prof. Huarong Zheng\)
           company_url: ''
@@ -263,7 +272,7 @@ sections:
           date_start: '2022-11-01'
           date_end: '2023-07-01'
           description: |2-
-              Analyze the stoke vector image and parameterize the enhanced image, then maximize the proposed enhanced EME(measure of enhancement by entropy), and finally utilize haze removal algorithm to make underwater image enhancement. I've also participated in applying this algorithm to a project concerning underwater 3D reconstruction. For this, I've studied the basic knowledge about SLAM.
+              A enhancing procedure maximizing the EME(measure of enhancement by entropy) of underwater polarized images based on stoke vector paramization and haze removal algorithm is proposed. I've also participated in applying this algorithm to a project concerning underwater 3D reconstruction and studied the basic knowledge about SLAM.
     design:
       columns: '2'
   # - block: accomplishments
@@ -331,57 +340,6 @@ sections:
     design:
       columns: '2'
 
-  - block: contact
-    id: contact
-    content:
-      title: Contact
-      subtitle:
-      # text: |-
-      #   Contact me
-      # Contact (add or remove contact options as necessary)
-      email: 3200101418@zju.edu.cn
-      phone: (+86) 19883113841
-    #   appointment_url: 'https://calendly.com'
-    #   address:
-    #     street: 450 Serra Mall
-    #     city: Stanford
-    #     region: CA
-    #     postcode: '94305'
-    #     country: United States
-    #     country_code: US
-    #   directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-    #   office_hours:
-    #     - 'Monday 10:00 to 13:00'
-    #     - 'Wednesday 09:00 to 10:00'
-    #   # Choose a map provider in `params.yaml` to show a map from these coordinates
-    #   coordinates:
-    #     latitude: '37.4275'
-    #     longitude: '-122.1697'  
-    #   contact_links:
-    #     - icon: twitter
-    #       icon_pack: fab
-    #       name: DM Me
-    #       link: 'https://twitter.com/Twitter'
-    #     - icon: skype
-    #       icon_pack: fab
-    #       name: Skype Me
-    #       link: 'skype:echo123?call'
-    #     - icon: video
-    #       icon_pack: fas
-    #       name: Zoom Me
-    #       link: 'https://zoom.com'
-    #   # Automatically link email and phone or display as text?
-    #   autolink: true
-    #   # Email form provider
-    #   form:
-    #     provider: netlify
-    #     formspree:
-    #       id:
-    #     netlify:
-    #       # Enable CAPTCHA challenge to reduce spam?
-    #       captcha: false
-    design:
-      columns: '2'
 
 
 ---

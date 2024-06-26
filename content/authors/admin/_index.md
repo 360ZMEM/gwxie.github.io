@@ -90,7 +90,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:3200101418@zju.edu.cn'
+    link: 'mailto:360memz.zju@gmail.com'
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
     link: https://scholar.google.com.hk/citations?user=ZvvWv5wAAAAJ

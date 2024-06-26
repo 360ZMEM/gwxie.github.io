@@ -33,10 +33,8 @@ tags:
 - Source Themes
 featured: false
 
-links:
-- name: "PDF coming soon"
-  url: ""
-# url_pdf: https://www.mdpi.com/1424-8220/23/17/7429
+# links:
+url_pdf: https://ieeexplore.ieee.org/document/10516675/
 # url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_dataset: ''
 # url_poster: ''

@@ -32,10 +32,10 @@ tags:
 - Source Themes
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: https://www.mdpi.com/1424-8220/23/17/7429
+links:
+- name: PDF
+  url: 'https://www.mdpi.com/1424-8220/23/17/7429'
+# url_pdf: https://www.mdpi.com/1424-8220/23/17/7429
 # url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_dataset: ''
 # url_poster: ''
